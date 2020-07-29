@@ -13,7 +13,7 @@ orbs:
             run-functions:
                 executor: kpt-container
                 steps:
-		  - checkout
+                  - checkout
                   - setup_remote_docker
                   - kpt-fn-run
 workflows:
